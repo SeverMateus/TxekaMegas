@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <PreferenceCategory
+        android:title="Operadora"
+        android:key="pref_key_operadora_settings">
+       &lt;!&ndash;<EditTextPreference&ndash;&gt;
+            &lt;!&ndash;android:key="example_text"&ndash;&gt;
+            &lt;!&ndash;android:title="@string/pref_title_display_name"&ndash;&gt;
+            &lt;!&ndash;android:defaultValue="@string/pref_default_display_name"&ndash;&gt;
+            &lt;!&ndash;android:selectAllOnFocus="true"&ndash;&gt;
+            &lt;!&ndash;android:inputType="textCapWords"&ndash;&gt;
+            &lt;!&ndash;android:capitalize="words"&ndash;&gt;
+            &lt;!&ndash;android:singleLine="true"&ndash;&gt;
+            &lt;!&ndash;android:summary="Testing"&ndash;&gt;
+            &lt;!&ndash;android:maxLines="1" />&ndash;&gt;
+        <Preference
+            android:key="pref_key_operadora"
+            android:summary="please"
+            android:title="Operadora:" />
+
+    </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:title="Gestão dos Megabytes"
+        android:key="pref_key_megas_settings">
+
+        <SwitchPreference
+        android:key="pref_key_acabou_megas"
+        android:title="Cortar Internet"
+        android:summary="Cortar quando Acabar "/>
+    </PreferenceCategory>
+
+
+<!--    <CheckBoxPreference
+        android:key="example_checkbox"
+        android:title="@string/pref_title_social_recommendations"
+        android:summary="@string/pref_description_social_recommendations"
+        android:defaultValue="true" />-->
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+<!--    <ListPreference
+        android:key="example_list"
+        android:title="@string/pref_title_add_friends_to_messages"
+        android:defaultValue="-1"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />-->
+
+</PreferenceScreen>

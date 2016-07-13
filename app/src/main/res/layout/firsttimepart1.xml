@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#90A4AE"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="0.8">
+
+
+
+    <ImageView
+        android:id="@+id/img_torneira1"
+        android:contentDescription="@string/app_name"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="17dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_1stTime1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem Vindo ao Txekamegas"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        tools:ignore="SpUsage"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/termosCondicoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="Termos e Condições" />
+
+    <ImageView
+        android:id="@+id/img_swipe"
+        android:contentDescription="Deslize para a esquerda para continuar"
+        android:layout_width="168dp"
+        android:layout_height="165dp"
+        android:src="@drawable/swipe_left256"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/swipeLeft2Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Deslize para a esquerda para continuar."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="0.1">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_swipeLeft" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
